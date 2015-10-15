@@ -1,3 +1,3 @@
 base:
-  'ip-172-31-18-114.us-west-2.compute.internal':
+  '<<Your Minion ID here>>':
     - nginx1
