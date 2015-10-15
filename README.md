@@ -4,6 +4,7 @@ This is an attempt to understand Salt Stack and it's use in configuration manage
 
 For more information, visit https://docs.saltstack.com/en/latest/
 
+Link to class ppt: https://docs.google.com/presentation/d/1-43xfPOhlNtge3ScHIbhzwIXL8i1SY-sBL6lkSoFLag/edit?usp=sharing
 
 ##Installation
 
