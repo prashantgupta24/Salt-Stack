@@ -98,7 +98,7 @@ This tells Salt to install nginx as a Package, and also check that the nginx ser
 
 Once this is done, we need to tell the master which Minions are to be transported to this state. For that, we create another file, called **top.sls**,
 
-root@master:~# vi /salt/states/base/top.sls
+    root@master:~# vi /salt/states/base/top.sls
 
 Add the following code to it:
 
