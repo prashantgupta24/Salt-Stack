@@ -7,7 +7,7 @@ For more information, visit https://docs.saltstack.com/en/latest/
 
 ##Installation
 
-I used 2 VM's from AWS, and I installed the Salt-master on one and the Salt-minion on the other. This link is very helpful for installation guide:
+I used 2 VM's from AWS, and I installed the Salt-master on one and the Salt-minion on the other. Check out this link for help with installation of Salt:
 https://docs.saltstack.com/en/latest/topics/installation/
 
 ##Configuring the Salt Master
