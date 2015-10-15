@@ -84,7 +84,7 @@ Since each state in salt needs a sub-directory in the respective environment, I 
 
 Inside this folder, I will create the **init.sls** file, which holds the State configuration we need to run in our Minions.
 
-    root@master:~# vi /salt/states/base/nginx/init.sls
+    root@master:~# vi /salt/states/base/nginxState/init.sls
 
 Add the following code to this file:
 
