@@ -4,6 +4,6 @@ This is an attempt to understand Salt Stack and it's use in configuration manage
 
 For more information, visit https://docs.saltstack.com/en/latest/
 
-References:
+#####References:
 
-   http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/
+http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/
