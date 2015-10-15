@@ -1,6 +1,6 @@
 # Salt-Stack
 
-This is an attempt to understand Salt Stack and it's use in configuration management. I will try to install nginx onto a remote machine using Salt.
+This is an attempt to understand Salt Stack and it's use in configuration management. We will try to install nginx onto a remote machine using Salt.
 
 For more information, visit https://docs.saltstack.com/en/latest/
 
@@ -8,7 +8,7 @@ Link to class ppt: https://docs.google.com/presentation/d/1-43xfPOhlNtge3ScHIbhz
 
 ##Installation
 
-I used 2 VM's from AWS, and I installed the Salt-master on one and the Salt-minion on the other. Check out this link for help with installation of Salt:
+We've used 2 VM's from AWS, and installed the Salt-master on one and the Salt-minion on the other. Check out this link for help with installation of Salt:
 https://docs.saltstack.com/en/latest/topics/installation/
 
 ##Configuring the Salt Master
@@ -79,11 +79,11 @@ This will ping all Minions, and in turn they will reply back with a *True* statu
 
 If you recall, */salt/states/base* was the base directory we had created earlier in the Master VM.
 
-Since each state in salt needs a sub-directory in the respective environment, I will create a folder inside this directory,
+Since each state in salt needs a sub-directory in the respective environment, Create a folder inside this directory,
 
     root@master:~# mkdir /salt/states/base/nginxState
 
-Inside this folder, I will create the **init.sls** file, which holds the State configuration we need to run in our Minions.
+Inside this folder, create the **init.sls** file, which holds the State configuration we need to run in our Minions.
 
     root@master:~# vi /salt/states/base/nginxState/init.sls
 
